@@ -6,6 +6,7 @@ int max = 100;          //maximum value the user can select
 int guess;              //the user's guess
 int number;             //number that is randomly generated
 int guesses;            //number of guess the user has guessed
+int guessLimit = 5;     //number of times a player is allowed to play
 string response;
 
 while (playAgain == true)
@@ -15,9 +16,9 @@ while (playAgain == true)
     response = "";
     number = random.Next(min, max + 1);
 
-    while (guess != number)
+    while (guess != number && guesses < guessLimit)
     {
-        Console.WriteLine($"Guess a number between {min} {max} :");
+        Console.WriteLine($"Guess a number between {min} to {max} :");
         guess = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine($"Guess: {guess}");
 
@@ -29,15 +30,20 @@ while (playAgain == true)
         {
             Console.WriteLine($"{guess} is too low!");
         }
+        else if (guess == number)
+        {
+            Console.WriteLine($"\nNumber: {number}");
+            Console.WriteLine("YOU WIN!");
+            Console.WriteLine($"Guesses: {guesses}");
+        }
         guesses++;
     }
-    Console.WriteLine($"Number: {number}");
-    Console.WriteLine("YOU WIN!");
-    Console.WriteLine($"Guesses: {guesses}");
+    Console.WriteLine("\nGAME OVER!");
+    Console.WriteLine($"The right number is {number}.");
 
-    Console.WriteLine("Would you like to play again? (Y/N");
-    response = Console.ReadLine();
-    response = response.ToUpper();
+
+    Console.WriteLine("\nWould you like to play again? (Y/N");
+    response = Console.ReadLine().ToUpper();
 
     if (response == "Y")
     {
