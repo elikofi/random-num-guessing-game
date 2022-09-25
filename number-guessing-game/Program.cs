@@ -18,7 +18,7 @@ while (playAgain == true)
 
     while (guess != number && guesses < guessLimit)
     {
-        Console.WriteLine($"Guess a number between {min} to {max} :");
+        Console.WriteLine($"\nGuess a number between {min} to {max} :");
         guess = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine($"Guess: {guess}");
 
@@ -38,11 +38,12 @@ while (playAgain == true)
         }
         guesses++;
     }
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("\nGAME OVER!");
     Console.WriteLine($"The right number is {number}.");
 
-
-    Console.WriteLine("\nWould you like to play again? (Y/N");
+    Console.ResetColor();
+    Console.WriteLine("\nWould you like to play again? (Y/N)");
     response = Console.ReadLine().ToUpper();
 
     if (response == "Y")
