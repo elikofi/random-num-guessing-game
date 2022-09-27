@@ -1,13 +1,7 @@
 ﻿<Properties StartupConfiguration="{63B44F3D-39AF-4A82-A171-CED58F024A82}|Default">
-  <MonoDevelop.Ide.ItemProperties.number-guessing-game PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="number-guessing-game/Program.cs">
     <Files>
-      <File FileName="number-guessing-game/Program.cs" Line="29" Column="33" />
+      <File FileName="number-guessing-game/Program.cs" Line="54" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,5 +16,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.number-guessing-game PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

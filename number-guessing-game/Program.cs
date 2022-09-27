@@ -55,4 +55,5 @@ while (playAgain == true)
         playAgain = false;
     }
 }
+Console.BackgroundColor = ConsoleColor.DarkGreen;
 Console.WriteLine($"Thanks for playing my number guessing game!...");
