@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{63B44F3D-39AF-4A82-A171-CED58F024A82}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="number-guessing-game/Program.cs">
     <Files>
-      <File FileName="number-guessing-game/Program.cs" Line="54" Column="6" />
+      <File FileName="number-guessing-game/Program.cs" Line="19" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,16 +12,12 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.number-guessing-game PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.number-guessing-game PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

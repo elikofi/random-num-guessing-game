@@ -1,4 +1,5 @@
-﻿// random object to display random numbers.
+﻿using System.Security.Cryptography;
+// random object to display random numbers.
 Random random = new Random();
 bool playAgain = true;  //if user would like to play again, bool set to true
 int min = 1;            //minimun value the user can select
@@ -14,7 +15,7 @@ while (playAgain == true)
     guess = 0;
     guesses = 0;
     response = "";
-    number = random.Next(min, max + 1);
+    number = RandomNumberGenerator.GetInt32(min, max + 1);
 
     while (guess != number && guesses < guessLimit)
     {
